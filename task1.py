@@ -4,7 +4,6 @@ def view_tasks(task_list):
     if not task_list:
         print("Your list is empty.")
     else:
-        # Using enumerate() for simultaneous access to Index and Value
         for index, task in enumerate(task_list, start=1):
             print(f"{index}. {task}")
     print("--------------------------\n")
