@@ -6,7 +6,6 @@ def main():
     print("--- Enterprise Random Password Generator ---")    
     while True:
         try:
-            # Capture target integer representing password length
             length = int(input("Enter password length (minimum 8 for NIST 2024 compliance): "))
             
             if length < 8:
